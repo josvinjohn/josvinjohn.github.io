@@ -125,7 +125,8 @@ strong {
     margin: auto;
     display: block;
     width: 230px;
-    height: 230px;
+    height: auto;
+    aspect-ratio: 1 / 1;
     border: solid 4px #fff;
     border-radius: 50%;
     object-fit: cover;

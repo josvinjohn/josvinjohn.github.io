@@ -125,8 +125,12 @@ strong {
     margin: auto;
     display: block;
     width: 230px;
+    height: 230px;
     border: solid 4px #fff;
-}
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
 
 #header_text {
     display: block;
